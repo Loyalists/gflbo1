@@ -2,6 +2,7 @@
 Girls' Frontline: Black Ops
 
 # Requirements
+[Call of Duty: Black Ops](http://store.steampowered.com/agecheck/app/42700/) (Steam - PC)*  
 [Game_Mod](https://github.com/Nukem9/LinkerMod/releases)   
 
 # Wiki
