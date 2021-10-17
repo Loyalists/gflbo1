@@ -10,3 +10,8 @@ Girls' Frontline: Black Ops
 [Releases](https://github.com/Loyalists/gflbo1/releases)   
 [Gallery](https://github.com/Loyalists/gflbo1/wiki/Gallery)   
 [Credits](https://github.com/Loyalists/gflbo1/wiki/Credits)   
+
+# Wiki
+[Greyhound](https://github.com/Scobalula/Greyhound)   
+[Bassdrop](https://tools.modme.co/#utilities-view)   
+[Bo1 full dump](https://drive.google.com/drive/folders/1Nwv3uGFwpopIMMXDVcZdG0iq2vQAVHc-)   
