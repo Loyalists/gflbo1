@@ -594,7 +594,7 @@ frontend_player_connect()
 
 	thread bink_stock_footage_select();
 
-	start3dcinematic("int_screens", true, false);
+	start3dcinematic("frontend", true, false);
 	SetDvar("dec20_Enabled",1);
 	
 	level thread maps\frontend_amb::interrogation_room_watcher();
@@ -967,7 +967,7 @@ menu_message(state, item)
 		{
 			thread cover_screen_in_black(0, 0, 0.2);
 			setculldist(0);
-			Start3DCinematic("frontend",1,1);
+			start3dcinematic("frontend", true, false);
 			level notify( "end_credits_music" );
 			clientnotify( "nts" );
 //			get_players()[0] CloseMainMenu( );

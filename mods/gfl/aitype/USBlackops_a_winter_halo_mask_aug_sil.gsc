@@ -26,7 +26,7 @@ main()
 	self setEngagementMinDist( 250.000000, 0.000000 );
 	self setEngagementMaxDist( 700.000000, 1000.000000 );
 
-	character\c_usa_blackops_winter_body2_halo::main();
+	character\gfl\character_gfl_random_us_blackops::main();
 }
 
 spawner()
@@ -36,7 +36,7 @@ spawner()
 
 precache()
 {
-	character\c_usa_blackops_winter_body2_halo::precache();
+	character\gfl\character_gfl_random_us_blackops::precache();
 
 	precacheItem("aug_arctic_acog_silencer_sp");
 	precacheItem("aug_arctic_acog_sp");
