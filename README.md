@@ -9,6 +9,7 @@ Girls' Frontline: Black Ops
 [How To Use](https://github.com/Loyalists/gflbo1/wiki/How-To-Use)   
 [Releases](https://github.com/Loyalists/gflbo1/releases/tag/release)   
 [Gallery](https://github.com/Loyalists/gflbo1/wiki/Gallery)   
+[Known Issues](https://github.com/Loyalists/gflbo1/wiki/Known_Issues)   
 [Credits](https://github.com/Loyalists/gflbo1/wiki/Credits)   
 
 # Useful links
