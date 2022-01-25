@@ -5,6 +5,22 @@ Girls' Frontline: Black Ops
 [Call of Duty: Black Ops](http://store.steampowered.com/agecheck/app/42700/) (Steam - PC)*  
 [Game_Mod](https://github.com/Nukem9/LinkerMod/releases)   
 
+# CAST
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_AK12_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_HK416Mod_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_KP31_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_M16A1_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_M1903_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_Nyto_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_P90_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_PPsh41_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_RFB_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_RPK16_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_Saiga12_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_UMP40_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_UMP45_HD.png)
+![](https://github.com/Loyalists/gflbo1/blob/main/wiki/cast/Pic_UMP9_HD.png)
+
 # Wiki
 [How To Use](https://github.com/Loyalists/gflbo1/wiki/How-To-Use)   
 [Releases](https://github.com/Loyalists/gflbo1/releases/tag/release)   
