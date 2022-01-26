@@ -28,6 +28,10 @@ Girls' Frontline: Black Ops
 [Known Issues](https://github.com/Loyalists/gflbo1/wiki/Known-Issues)   
 [Credits](https://github.com/Loyalists/gflbo1/wiki/Credits)   
 
+# Community Projects
+[Custom Subtitles and Cutscenes](https://github.com/AmyTsurimi/Girls_Frontline_Black_Ops_-_Phase-2)   
+[Custom Voicelines](https://www.castingcall.club/projects/girls-frontline-black-ops-mod-fandub)   
+
 # Useful links
 [Greyhound](https://github.com/Scobalula/Greyhound)   
 [Bassdrop](https://tools.modme.co/#utilities-view)   
