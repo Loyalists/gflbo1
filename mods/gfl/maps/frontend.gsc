@@ -54,6 +54,9 @@ frontend_precache()
 	PrecacheShader( "logo_cod2" );
 	PreCacheShader("cinematic");
 	PreCacheRumble("melee_garrote");
+	
+	character\gfl\character_gfl_m16a1::precache();
+	character\gfl\character_gfl_ak12::precache();
 }
 
 spy_monitors_randomize()
