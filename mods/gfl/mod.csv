@@ -105,3 +105,6 @@ xmodel,viewmodel_usa_hazmat_arms
 sound,gfl
 weapon,sp\ak12_zm
 weapon,sp\m27_zm
+
+localize,frontend
+localize,menu

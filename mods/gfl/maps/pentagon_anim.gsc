@@ -428,7 +428,7 @@ jfk_time_start(guy)
 	
 	wait(.05);
 	
-	Start3DCinematic( "kennedy_screens", false, true );
+	Start3DCinematic( "kennedy_screens", false, false );
 	level notify( "slow_mo_start" );//kevin
 	SetTimeScale(0.05);
 
@@ -578,7 +578,7 @@ jfk_movie_1(guy)
 	
 	//temp movie placeholder
 	hud_utility_show( "cinematic", 0 );
-	Start3DCinematic( "jfk_flash_1", false, true );
+	Start3DCinematic( "jfk_flash_1", false, false );
 	wait(.75);
 	hud_utility_hide();
 	Stop3DCinematic(); 

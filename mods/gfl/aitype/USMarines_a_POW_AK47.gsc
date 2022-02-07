@@ -26,15 +26,7 @@ main()
 	self setEngagementMinDist( 250.000000, 0.000000 );
 	self setEngagementMaxDist( 700.000000, 1000.000000 );
 
-	switch( codescripts\character::get_random_character(2) )
-	{
-	case 0:
-		character\c_usa_jungmar_pow_1::main();
-		break;
-	case 1:
-		character\c_usa_jungmar_pow_2::main();
-		break;
-	}
+	character\gfl\character_gfl_random_us::main();
 }
 
 spawner()
@@ -44,8 +36,7 @@ spawner()
 
 precache()
 {
-	character\c_usa_jungmar_pow_1::precache();
-	character\c_usa_jungmar_pow_2::precache();
+	character\gfl\character_gfl_random_us::precache();
 
 	precacheItem("ak47_sp");
 	precacheItem("cz75_sp");

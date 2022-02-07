@@ -86,7 +86,7 @@ do_glasses_movie()
 
 	level.hudson setclientflag(level.CLIENT_SWITCH_GLASSES_BINK);
 
-	Start3DCinematic( "hudson_glasses", false, true );
+	Start3DCinematic( "hudson_glasses", false, false );
 	level thread start_hudson_bloom();
 
 
@@ -159,7 +159,7 @@ limo_flashback( guy ) //self == whatever the anim was played relative to; guy is
 	//hud_utility_show( "white", 0.25 );
 	playsoundatposition ("evt_shocking_1", (0,0,0));
 	hud_utility_show( "cinematic", 0 );
-	Start3DCinematic( "dragovich_flash_1", false, true );
+	Start3DCinematic( "dragovich_flash_1", false, false );
 	//	DEBUGTEXT( "DRAGOVICH" );
 	wait 0.25;
 	//hud_utility_hide( "white", 0.25 );
@@ -174,7 +174,7 @@ limo_flashback( guy ) //self == whatever the anim was played relative to; guy is
 	//hud_utility_show( "white", 0.25 );
 	playsoundatposition ("evt_shocking_2", (0,0,0));
 	hud_utility_show( "cinematic", 0 );
-	Start3DCinematic( "dragovich_flash_2", false, true );
+	Start3DCinematic( "dragovich_flash_2", false, false );
 	//	DEBUGTEXT( "IN CUBA" );
 	wait 0.25;
 	//hud_utility_hide( "white", 0.25 );
@@ -197,7 +197,7 @@ limo_flashback( guy ) //self == whatever the anim was played relative to; guy is
 	hud_utility_show( "white", 1 );
 	playsoundatposition ("mid_drag_flash_movie", (0,0,0));
 	hud_utility_show( "cinematic", 0 );
-	Start3DCinematic( "dragovich_flash_3", true, true );
+	Start3DCinematic( "dragovich_flash_3", true, false );
 	//	DEBUGTEXT( "DRAGOVICH CAPTURING MASON IN CUBA." );
 
 	//Stop traffic and the character animations to buy time on the highway! 

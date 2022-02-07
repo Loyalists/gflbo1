@@ -81,7 +81,7 @@ do_interstitial_3()
 	wait 1.8;
 	
 	stop3dcinematic();
-	play_movie("int_4_torturetable");
+	play_movie("int_4_torturetable", false, false);
 }
 
 int_3_tv_rounds()
@@ -137,7 +137,7 @@ int_3_tv_rounds()
 	next_tv_round();  // "dragovich's second..." -  fullscreen int_4_krav_weaver
 	wait 1.3;
 	stop3dcinematic();
-	play_movie("int_4_krav_weaver");
+	play_movie("int_4_krav_weaver", false, false);
 	start3dcinematic("int_screens", true, false);
 	
 }

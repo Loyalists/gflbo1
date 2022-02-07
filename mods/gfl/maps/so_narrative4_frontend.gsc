@@ -176,7 +176,7 @@ int_4_tv_rounds()
 	wait 3;
 	
 	// fullscreen int_5_reznov_vorkuta
-	play_movie("int_5_reznov_vorkuta");
+	play_movie("int_5_reznov_vorkuta", false, false);
 	level notify("stop_movie");
 	start3dcinematic("int_screens", true, false);
 	

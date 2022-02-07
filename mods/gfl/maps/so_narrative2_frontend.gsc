@@ -108,6 +108,47 @@ do_interstitial_2()
 	wait 1;
 }
 
+play_short_movie_stream(movie)
+{
+	stop3dcinematic();
+	start3dcinematic(movie, false, false);
+	playsoundatposition(movie+"_movie",(0,0,0));
+	wait 0.05;
+	hud = create_movie_hud();
+
+		
+	timeleft = GetCinematicTimeRemaining();
+	counter = 0;
+	while ( (timeleft < 0.05) && counter < 100 )
+	{
+		wait 0.05;
+		counter++;
+		timeleft = GetCinematicTimeRemaining();
+		PrintLn(timeleft);
+	}
+
+	oldtimeleft = GetCinematicTimeRemaining();
+	
+	while (timeleft >= 0.2)
+	{
+		wait 0.05;
+
+		timeleft = GetCinematicTimeRemaining();
+
+		if (timeleft < oldtimeleft )
+		{
+			oldtimeleft = timeleft;
+		}
+		else
+		{
+			timeleft -= 0.05;
+		}
+	}
+	wait 0.15;
+	stop3dcinematic();
+	hud Destroy();
+}
+
 int_2_tv_rounds()
 {
 	monitor1 = GetEnt( "monitor_01", "targetname" );
@@ -197,7 +238,7 @@ int_2_tv_rounds()
 	
 	next_tv_round();			// on voices..russians
 	wait 1.2;
-	play_short_movie("int_3_drag_krav");
+	play_short_movie_stream("int_3_drag_krav");
 	start3dcinematic("int_screens", true, false);
 	
 	next_tv_round();			// on "we want..." tvs all turn to TBD numbers

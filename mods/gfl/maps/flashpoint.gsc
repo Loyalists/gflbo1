@@ -827,6 +827,9 @@ main_precache()
 	//PreCacheShader("e3_slate");
 	PreCacheShader("cinematic");
 	PreCacheShader("tow_filter_overlay_no_signal");
+
+	character\gfl\character_gfl_9a91::precache();
+	character\gfl\character_gfl_saiga12::precache();
 }
 
 
