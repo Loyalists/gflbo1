@@ -853,6 +853,8 @@ spawn_guards( waittime )
 	
 	level.dumpguard1 Detach(level.dumpguard1.headModel);
 	level.dumpguard2 Detach(level.dumpguard2.headModel);
+	level.dumpguard1 Detach(level.dumpguard1.gearModel);
+	level.dumpguard2 Detach(level.dumpguard2.gearModel);
 	level.dumpguard1 character\gfl\character_gfl_saiga12::main();
 	level.dumpguard2 character\gfl\character_gfl_9a91::main();
 

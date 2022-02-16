@@ -1844,6 +1844,9 @@ reznov_reveal()
 	align_struct = getstruct("reznov_room_align_struct", "targetname");
 	
 	nva = struct_spawn("nva_reznov_reveal_guy")[0];
+	nva Detach(nva.headModel);
+	nva Detach(nva.gearModel);
+	nva character\gfl\character_gfl_nyto::main();
 	nva gun_remove();
 	nva attach("t5_knife_sog", "tag_weapon_right");
 	nva attach("t5_knife_sog","tag_weapon_left");
@@ -1940,7 +1943,9 @@ reznov_reveal_deadguy()
 	deadguy = spawn("script_model",align_struct.origin);
 	deadguy.angles = align_struct.angles;
 	
-	deadguy setmodel("c_usa_jungmar_fieldagent_fb");//character\c_vtn_nva1::main();
+	// deadguy setmodel("c_usa_jungmar_fieldagent_fb");//character\c_vtn_nva1::main();
+	deadguy Detach(deadguy.headModel);
+	deadguy character\gfl\character_gfl_ak74m::main();
 	deadguy.animname = "deadguy";	
 	deadguy useanimtree(#animtree);
 	align_struct thread anim_single_aligned(deadguy, "reznov_reveal");

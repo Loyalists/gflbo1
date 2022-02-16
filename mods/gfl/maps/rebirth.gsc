@@ -168,6 +168,10 @@ main()
 	maps\rebirth_hudson_lab::corpse_memory_init();
 	
 	maps\rebirth_hudson_lab::things_for_fx();
+
+	character\gfl\character_gfl_p90::precache();
+	character\gfl\character_gfl_9a91::precache();
+	character\gfl\character_gfl_saiga12::precache();
 }
 
 remove_lmg_anims()
