@@ -784,13 +784,6 @@ precacheeverything(jokes_on_u)
 	character\gfl\character_gfl_9a91::precache();
 	character\gfl\character_gfl_ak74m::precache();
 	character\gfl\character_gfl_nyto::precache();
-
-	character\c_usa_jungmar_assault::precache();
-	character\c_usa_jungmar_snip::precache();
-	character\c_usa_jungmar_lmg::precache();
-	character\c_usa_jungmar_cqb::precache();
-	character\c_usa_jungmar_medic::precache();
-	character\c_usa_jungmar_shotgun::precache();
 }
 
 woods_ridealong()
