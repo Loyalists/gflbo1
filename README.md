@@ -23,7 +23,7 @@ Girls' Frontline: Black Ops
 
 # Wiki
 [How To Use](https://github.com/Loyalists/gflbo1/wiki/How-To-Use)   
-[Releases](https://github.com/Loyalists/gflbo1/releases/tag/release)   
+[Releases](https://github.com/Loyalists/gflbo1/releases/tag/release_2.0)   
 [Gallery](https://github.com/Loyalists/gflbo1/wiki/Gallery)   
 [Known Issues](https://github.com/Loyalists/gflbo1/wiki/Known-Issues)   
 [Credits](https://github.com/Loyalists/gflbo1/wiki/Credits)   
